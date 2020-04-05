@@ -25,6 +25,8 @@ h1{
     background-color: grey;
     margin: 0;
     padding:0;
+    top: 0;
+    left: 0;
 }
 .dyn{
     width:80%;
@@ -32,6 +34,8 @@ h1{
     float:right;
     margin: 0;
     padding:0;
+    top:0;
+    left:0;
 }
 .first{
     height:110%;
