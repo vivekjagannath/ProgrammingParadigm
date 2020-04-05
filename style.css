@@ -1,3 +1,7 @@
+*{
+    margin:0;
+    padding:0;
+}
 ul{
     list-style-type: none;
     padding: 0;
@@ -7,8 +11,7 @@ button{
     border: 0;
     height: 49px;
     width: 99%;
-    margin: 1px;
-    padding:0;
+    margin: 2px;
 }
 button:hover{
     color: #ffffff;
@@ -17,33 +20,28 @@ button:hover{
 h1{
     color: #eeeeee;
     text-align: center;
+    padding: 10px;
 }
 .static{
     width:20%;
     height:100%;
     position:fixed;
     background-color: grey;
-    margin: 0;
-    padding:0;
     top: 0;
     left: 0;
 }
 .dyn{
-    width:80%;
+    width:90%;
     height:100%;
     float:right;
-    margin: 0;
-    padding:0;
-    top:0;
-    left:0;
 }
 .first{
-    height:110%;
+    height:100%;
     width:100%;
     background-image: url(first.jpg);
-    background-size:cover;
     display:table;
     background-attachment: fixed;
+    background-size: cover;
 }
 .second{
     height:110%;
