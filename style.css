@@ -31,7 +31,7 @@ h1{
     left: 0;
 }
 .dyn{
-    width:90%;
+    width:80%;
     height:100%;
     float:right;
 }
@@ -44,7 +44,7 @@ h1{
     background-size: cover;
 }
 .second{
-    height:110%;
+    height:100%;
     width:100%;
     background-image: url(second.jpg);
     background-size:cover;
