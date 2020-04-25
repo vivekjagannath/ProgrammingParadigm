@@ -12,12 +12,15 @@ button{
     height: 5.4%;
     width: 99%;
     margin: 0.5%;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 1000;
+    font-size: 130%;
 }
 button:hover{
     color: #ffffff;
     background-color: #008899;
     transition: 0.3s;
-    font-size: 120%;
+    font-size: 170%;
 }
 h1{
     color: #eeeeee;
@@ -172,21 +175,22 @@ color:white;
 text-align: center;
 vertical-align: text-top;
 margin: 0;
-font-size: 450%;
+font-size: 700%;
 font-family: 'Bangers', cursive;
 letter-spacing: 2;
-margin-top: 5%;
+margin-top: 3%;
 text-decoration: underline;
 }
 pre, code {
     font-family: monospace, monospace;   
     color: white;
-    margin: 20%;
+    margin: 5%;
     margin-top: 0;
 }
   pre {
     overflow: auto;
     background-color: black;
+    height: 60%;
   }
   pre > code[class]::before {
     content: attr(class);
@@ -196,6 +200,8 @@ pre, code {
     color: #6c5f7c;
   }
 .struc_cont{
+    font-family: 'Indie Flower', cursive;
+    font-size: 200%;
     width : 70%;
     float:left;
 }
