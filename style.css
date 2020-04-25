@@ -2,6 +2,9 @@
     margin:0;
     padding:0;
 }
+body{
+    font-family: 'Indie Flower', cursive;
+}
 ul{
     list-style-type: none;
     padding: 0;
@@ -208,4 +211,8 @@ pre, code {
 .struc_code{
     width: 30%;
     float: right;
+}
+.intro_cont{
+    font-family: 'Indie Flower', cursive;
+    font-size: 200%;
 }
