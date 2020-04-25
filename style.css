@@ -16,7 +16,7 @@ button{
 button:hover{
     color: #ffffff;
     background-color: #008899;
-    transition: 1s;
+    transition: 0.3s;
     font-size: 120%;
 }
 h1{
@@ -40,7 +40,7 @@ h1{
 .first{
     height:100%;
     width:100%;
-    background-image: url(first.jpg);
+    background-color: #e0e0e0;
     display:table;
     background-attachment: fixed;
     background-size: cover;
@@ -48,15 +48,152 @@ h1{
 .second{
     height:100%;
     width:100%;
-    background-image: url(second.jpg);
+    background-color: #d8d8d8;
     background-size:cover;
     display:table;
     background-attachment: fixed;
 }
+.third{
+    height:100%;
+    width:100%;
+    background-color: #d0d0d0;
+    display:table;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fourth{
+    height:100%;
+    width:100%;
+    background-color: #c0c0c0;
+    display:table;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fifth{
+    height:100%;
+    width:100%;
+    background-color: #b8b8b8;
+    display:table;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.sixth{
+    height:100%;
+    width:100%;
+    background-color: #a8a8a8;
+    display:table;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.seventh{
+    height:100%;
+    width:100%;
+    background-color: #909090;
+    display:table;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.eighth{
+    height:100%;
+    width:100%;
+    background-color: #888888;
+    display:table;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.ninth{
+    height:100%;
+    width:100%;
+    background-color: #787878;
+    display:table;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.tenth{
+    height:100%;
+    width:100%;
+    background-color: #696969;
+    display:table;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.eleventh{
+    height:100%;
+    width:100%;
+    background-color: #606060;
+    display:table;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.twelfth{
+    height:100%;
+    width:100%;
+    background-color: #505050;
+    display:table;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.thirteenth{
+    height:100%;
+    width:100%;
+    background-color: #404040;
+    display:table;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fourteenth{
+    height:100%;
+    width:100%;
+    background-color: #303030;
+    display:table;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fifteenth{
+    height:100%;
+    width:100%;
+    background-color: #181818;
+    display:table;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.sixteenth{
+    height:100%;
+    width:100%;
+    background-color: #000000;
+    display:table;
+    background-attachment: fixed;
+    background-size: cover;
+}
 h2{
 color:white;
 text-align: center;
-display:table-cell;
-vertical-align: middle;
+vertical-align: text-top;
 margin: 0;
+}
+
+pre, code {
+    font-family: monospace, monospace;   
+    color: white;
+    margin: 20%;
+    margin-top: 0;
+}
+  pre {
+    overflow: auto;
+    background-color: black;
+  }
+  pre > code[class]::before {
+    content: attr(class);
+    display: block;
+    font-size: small;
+    font-style: italic;
+    color: #6c5f7c;
+  }
+.struc_cont{
+    width : 70%;
+    float:left;
+}
+.struc_code{
+    width: 30%;
+    float: right;
 }
