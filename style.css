@@ -23,6 +23,8 @@ h1{
     color: #eeeeee;
     text-align: center;
     padding: 3%;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2;
 }
 .static{
     width:20%;
@@ -170,8 +172,12 @@ color:white;
 text-align: center;
 vertical-align: text-top;
 margin: 0;
+font-size: 450%;
+font-family: 'Bangers', cursive;
+letter-spacing: 2;
+margin-top: 5%;
+text-decoration: underline;
 }
-
 pre, code {
     font-family: monospace, monospace;   
     color: white;
