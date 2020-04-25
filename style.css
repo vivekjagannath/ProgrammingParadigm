@@ -40,7 +40,7 @@ h1{
 .first{
     height:100%;
     width:100%;
-    background-color: #e0e0e0;
+    background-color: #cc9900;
     display:table;
     background-attachment: fixed;
     background-size: cover;
@@ -48,7 +48,7 @@ h1{
 .second{
     height:100%;
     width:100%;
-    background-color: #d8d8d8;
+    background-color: #cc9933;
     background-size:cover;
     display:table;
     background-attachment: fixed;
@@ -56,7 +56,7 @@ h1{
 .third{
     height:100%;
     width:100%;
-    background-color: #d0d0d0;
+    background-color: #cc9966;
     display:table;
     background-attachment: fixed;
     background-size: cover;
@@ -64,7 +64,7 @@ h1{
 .fourth{
     height:100%;
     width:100%;
-    background-color: #c0c0c0;
+    background-color: #cc9999;
     display:table;
     background-attachment: fixed;
     background-size: cover;
@@ -72,7 +72,7 @@ h1{
 .fifth{
     height:100%;
     width:100%;
-    background-color: #b8b8b8;
+    background-color: #cc99cc;
     display:table;
     background-attachment: fixed;
     background-size: cover;
@@ -80,7 +80,7 @@ h1{
 .sixth{
     height:100%;
     width:100%;
-    background-color: #a8a8a8;
+    background-color: #cc99ff;
     display:table;
     background-attachment: fixed;
     background-size: cover;
@@ -88,7 +88,7 @@ h1{
 .seventh{
     height:100%;
     width:100%;
-    background-color: #909090;
+    background-color: #cc99cc;
     display:table;
     background-attachment: fixed;
     background-size: cover;
@@ -96,7 +96,7 @@ h1{
 .eighth{
     height:100%;
     width:100%;
-    background-color: #888888;
+    background-color: #cc9999;
     display:table;
     background-attachment: fixed;
     background-size: cover;
@@ -104,7 +104,7 @@ h1{
 .ninth{
     height:100%;
     width:100%;
-    background-color: #787878;
+    background-color: #cc9966;
     display:table;
     background-attachment: fixed;
     background-size: cover;
@@ -112,7 +112,7 @@ h1{
 .tenth{
     height:100%;
     width:100%;
-    background-color: #696969;
+    background-color: #cc9933;
     display:table;
     background-attachment: fixed;
     background-size: cover;
@@ -120,7 +120,7 @@ h1{
 .eleventh{
     height:100%;
     width:100%;
-    background-color: #606060;
+    background-color: #cc9900;
     display:table;
     background-attachment: fixed;
     background-size: cover;
@@ -128,7 +128,7 @@ h1{
 .twelfth{
     height:100%;
     width:100%;
-    background-color: #505050;
+    background-color: #cc9933;
     display:table;
     background-attachment: fixed;
     background-size: cover;
@@ -136,7 +136,7 @@ h1{
 .thirteenth{
     height:100%;
     width:100%;
-    background-color: #404040;
+    background-color: #cc9966;
     display:table;
     background-attachment: fixed;
     background-size: cover;
@@ -144,7 +144,7 @@ h1{
 .fourteenth{
     height:100%;
     width:100%;
-    background-color: #303030;
+    background-color: #cc9999;
     display:table;
     background-attachment: fixed;
     background-size: cover;
@@ -152,7 +152,7 @@ h1{
 .fifteenth{
     height:100%;
     width:100%;
-    background-color: #181818;
+    background-color: #cc99cc;
     display:table;
     background-attachment: fixed;
     background-size: cover;
@@ -160,7 +160,7 @@ h1{
 .sixteenth{
     height:100%;
     width:100%;
-    background-color: #000000;
+    background-color: #cc99ff;
     display:table;
     background-attachment: fixed;
     background-size: cover;
