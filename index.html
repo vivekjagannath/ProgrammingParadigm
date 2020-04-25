@@ -114,10 +114,17 @@ print(blu.name)
             <figure>
                 <pre>
                     <code class = "Language: Python" contenteditable spellcheck="false">
-num1 = 23
-num2 = 15
-big = num1 if num1 > num2 else num2
-print("The greater number is ", big)
+def hello():
+    msg = messagebox.showinfo("GUI Event Demo", t.get())
+root = tk.Tk()
+root.geometry("200x200")
+l1 = tk.Label(root, text="Name:")
+l1.grid(row = 0)
+t = tk.Entry(root)
+t.grid(row=0, column=1)
+b = tk.Button(root, text='FireMe', commmand=hello)
+b.grid(row=1, columnspan=2);
+root.mainloop()
 
                     </code>
                 </pre>
@@ -134,10 +141,13 @@ print("The greater number is ", big)
             <figure>
                 <pre>
                     <code class = "Language: Python" contenteditable spellcheck="false">
-num1 = 23
-num2 = 15
-big = num1 if num1 > num2 else num2
-print("The greater number is ", big)
+SELECT column_name,
+    CASE
+        WHEN condition THEN 'Result_1'
+        WHEN condition THEN 'Result_2'
+        ELSE 'Result_3'
+    END
+FROM table_name;
 
                     </code>
                 </pre>
@@ -154,10 +164,14 @@ print("The greater number is ", big)
             <figure>
                 <pre>
                     <code class = "Language: Python" contenteditable spellcheck="false">
-num1 = 23
-num2 = 15
-big = num1 if num1 > num2 else num2
-print("The greater number is ", big)
+sum = 0
+sum = sum + 1
+sum = sum + 2
+sum = sum + 3
+sum = sum + 4
+sum = sum + 5
+
+print(sum)
 
                     </code>
                 </pre>
@@ -174,10 +188,18 @@ print("The greater number is ", big)
             <figure>
                 <pre>
                     <code class = "Language: Python" contenteditable spellcheck="false">
-num1 = 23
-num2 = 15
-big = num1 if num1 > num2 else num2
-print("The greater number is ", big)
+import multiprocessing
+def worker(num):
+    print('Worker: ', num)
+    for i in range(num):
+        print(i)
+    return
+
+jobs = []
+for i in range(1,5):
+    p = multiprocessing.Proccess(target = worker, args = (i+10,))
+    jobs.append(p)
+    p.start()
 
                     </code>
                 </pre>
@@ -194,10 +216,23 @@ print("The greater number is ", big)
             <figure>
                 <pre>
                     <code class = "Language: Python" contenteditable spellcheck="false">
-num1 = 23
-num2 = 15
-big = num1 if num1 > num2 else num2
-print("The greater number is ", big)
+import threading
+x = 0
+COUNT = 100
+
+def incr():
+    global x
+    for i in range(COUNT):
+        x = x + 1
+        print(x)
+
+t1 = threading.Thread(target=incr)
+t2 = threading.Thread(target=decr)
+t1.start()
+t2.start()
+t1.join()
+t2.join()
+print(x)
 
                     </code>
                 </pre>
@@ -214,10 +249,13 @@ print("The greater number is ", big)
             <figure>
                 <pre>
                     <code class = "Language: Python" contenteditable spellcheck="false">
-num1 = 23
-num2 = 15
-big = num1 if num1 > num2 else num2
-print("The greater number is ", big)
+def isPrime(number):
+    for i in range(2, math.floor(sqrt(number))):
+        if number % i == 0:
+            return False
+    return True
+
+ifPrime(15)
 
                     </code>
                 </pre>
@@ -234,10 +272,13 @@ print("The greater number is ", big)
             <figure>
                 <pre>
                     <code class = "Language: Python" contenteditable spellcheck="false">
-num1 = 23
-num2 = 15
-big = num1 if num1 > num2 else num2
-print("The greater number is ", big)
+father(John, Bill)
+father(John, Lisa)
+mother(Mary, Bill)
+mother(Mary, Lisa)
+
+?- mother(X, Bill)
+X = Mary
 
                     </code>
                 </pre>
@@ -255,10 +296,12 @@ print("The greater number is ", big)
             <figure>
                 <pre>
                     <code class = "Language: Python" contenteditable spellcheck="false">
-num1 = 23
-num2 = 15
-big = num1 if num1 > num2 else num2
-print("The greater number is ", big)
+from dependent import Integer, TenOrMore, LessThanTen
+a = Integer(5)
+print(a.value, type(a))
+
+a.add(10)
+print(a.value, type(a))
 
                     </code>
                 </pre>
@@ -275,10 +318,15 @@ print("The greater number is ", big)
             <figure>
                 <pre>
                     <code class = "Language: Python" contenteditable spellcheck="false">
-num1 = 23
-num2 = 15
-big = num1 if num1 > num2 else num2
-print("The greater number is ", big)
+import socket
+
+s = socket.socket()
+host = socket.gethostname()
+port = 12345
+
+s.connect((host, port))
+print s.recv(1024)
+s.close()    
 
                     </code>
                 </pre>
@@ -295,10 +343,9 @@ print("The greater number is ", big)
             <figure>
                 <pre>
                     <code class = "Language: Python" contenteditable spellcheck="false">
-num1 = 23
-num2 = 15
-big = num1 if num1 > num2 else num2
-print("The greater number is ", big)
+sym.expand((x+y)*3)
+
+Answer is x3 + 3*x2*y + 3*x*y2 + y*3
 
                     </code>
                 </pre>
@@ -315,10 +362,20 @@ print("The greater number is ", big)
             <figure>
                 <pre>
                     <code class = "Language: Python" contenteditable spellcheck="false">
-num1 = 23
-num2 = 15
-big = num1 if num1 > num2 else num2
-print("The greater number is ", big)
+import automatabpp as FSM
+
+FSM.BEHAVIOUR.load_behaviour_from_graph("first.graphml", "My First Finite State Machine")
+
+@FSM.EXECUTION.state
+def ON_START(*args, **kwargs):
+    print("FSM start")
+
+@FSM.EXECUTION.state
+def HELLO(*args, **kwargs):
+    print("Hello!")
+
+FSM.OPERATION.start()
+FSM.OPERATION.run("is_anyone_there")
 
                     </code>
                 </pre>
@@ -335,10 +392,12 @@ print("The greater number is ", big)
             <figure>
                 <pre>
                     <code class = "Language: Python" contenteditable spellcheck="false">
-num1 = 23
-num2 = 15
-big = num1 if num1 > num2 else num2
-print("The greater number is ", big)
+import Tkinter
+top = Tkinter.Tk()
+
+# Code to add widgets will go here...
+
+top.mainloop()
 
                     </code>
                 </pre>
